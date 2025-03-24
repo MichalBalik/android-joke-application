@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VkladanieVtipov">
+
+    <EditText
+        android:id="@+id/poleVkladanieDat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="@string/zadajteText"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/buttonUloz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonUloz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/uloz"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVymaz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poleVkladanieDat" />
+
+    <Button
+        android:id="@+id/buttonVymaz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/vymaz"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPosunDole"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUloz" />
+
+    <Button
+        android:id="@+id/buttonPosunDole"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/posunVtipudole"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPosunHore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonVymaz" />
+
+    <Button
+        android:id="@+id/buttonPosunHore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/posunVtipuHore"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPosunDole" />
+
+</android.support.constraint.ConstraintLayout>

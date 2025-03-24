@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Semestralka</string>
+    <string name="kategorie_vtipov">Kategorie vtipov</string>
+    <string name="vlastnevtipy">VlastneVtipy</string>
+    <string name="nastavenia">Nastavenia</string>
+    <string name="o_aplikacii">O aplikácii</string>
+    <string name="Autor">Aplikaciu vytvoril Michal Balik</string>
+    <string name="verzia_1_0">Verzia 1.0</string>
+    <string name="uloz">Uloz</string>
+    <string name="vymaz">Vymaz</string>
+    <string name="posunVtipuHore">+</string>
+    <string name="posunVtipudole">-</string>
+    <string name="zadajteText">Zadajte text vtipu</string>
+</resources>
